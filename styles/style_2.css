@@ -57,7 +57,7 @@
 }
 
 /* nav style */
-.navbar, .banner, .card-section {
+.navbar, .banner, .card-section, footer {
     justify-content: space-between;
     margin: 0 auto;
     max-width: 71.25rem;
@@ -72,7 +72,6 @@
 .banner-content{
     max-width: 35.625rem;
     margin: 7.5rem auto;
-    m
 }
 .banner-title{
     font-size: 4rem;
@@ -159,16 +158,71 @@
     margin: 2.4rem 0;
 }
 
+/* Join Section */
 
+.join-container{
+    background-image: url(assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 533px;
+}
+.btn-submit{
+    background-color: #E95A08;
+    color: white;
+    border: none;
+    height: 3.4rem;
+    padding: 1.20rem 3.34rem;
+}
+.overlay h1{
+    font-size: 3.1rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-bottom: 1.43rem;
+}
+.overlay p{
+    font-size: 1.37rem;
+}
+
+form {
+    /* display: flex; */
+}
+.overlay{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 7.5rem;
+    padding-top: 12rem;
+}
+.input-email{
+    height: 3.1rem;
+    width: 40.25rem;
+}
+
+/* Footer Style */
+.footer-nav ul{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 32px;
+}
+footer{
+    margin: 3.1rem auto;
+    align-items:normal;
+    width: 70rem;
+}
+.nav-logos{
+    
+}
 /* Responsive Media Query Small Device */
 @media  screen and (max-width: 576px) {
-    .banner{
+    .banner, .flower-plant{
         flex-direction: column;
     }
     
     .nav-item:nth-child(1),
     .nav-item:nth-child(2),
-    .nav-item:nth-child(3) {
+    .nav-item:nth-child(3),
+    .trust-badge {
         display: none;
     }
     .nav-item:nth-child(4){
@@ -187,5 +241,8 @@
         margin:0 auto;
         margin-left: 7rem;
         
+    }
+    .flower-plant-description{
+        margin-left: 0.5rem;
     }
 }
