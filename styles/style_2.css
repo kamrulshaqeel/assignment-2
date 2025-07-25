@@ -57,7 +57,7 @@
 }
 
 /* nav style */
-.navbar, .banner, .card-section{
+.navbar, .banner, .card-section {
     justify-content: space-between;
     margin: 0 auto;
     max-width: 71.25rem;
@@ -102,9 +102,6 @@
     max-width: 1140px;
     margin: auto;
 }
-.card{
-    /* padding: 0px; */
-}
 .card-img{
     width: 100%;
     height: auto;
@@ -125,6 +122,41 @@
     font-size: 1.375rem;
     font-weight: bold;
     margin-bottom: 30px;
+}
+/* Flower and plant lover section */
+.flower-plant{
+    max-height: 600px ;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 60px;
+    margin-top: 13.12rem;
+}
+.flower-plant-banner{
+    max-width: 540px;
+    max-width: 597px;
+}
+.flower-plant > div:first-child {
+    flex: 1;
+    position: relative;
+}
+.trust-badge{
+    max-width: 286px;
+    max-height: 286px;
+    position: absolute;
+    top: -110px;
+    right: -100px;
+    filter: drop-shadow(1px 1px 20px rgb(36, 36, 34));
+}
+.flower-plant-title{
+    font-size: 3.05rem;
+    font-weight: bold;
+}
+.flower-plant-description>ul>li{
+    font-size: 1.375rem;
+    margin-top: 2.5rem;
+}
+.flower-plant-description{
+    margin: 2.4rem 0;
 }
 
 
