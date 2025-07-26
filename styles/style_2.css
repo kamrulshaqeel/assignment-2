@@ -120,31 +120,31 @@
 .flower-price{
     font-size: 1.375rem;
     font-weight: bold;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 /* Flower and plant lover section */
 .flower-plant{
-    max-height: 600px ;
-    max-width: 1140px;
+    max-height: 37.5rem;
+    max-width: 71.25rem;
     margin: 0 auto;
-    gap: 60px;
+    gap: 3.75rem;
     margin-top: 13.12rem;
 }
 .flower-plant-banner{
-    max-width: 540px;
-    max-width: 597px;
+    max-width: 33.75rem;
+    max-width: 37.31rem;
 }
 .flower-plant > div:first-child {
     flex: 1;
     position: relative;
 }
 .trust-badge{
-    max-width: 286px;
-    max-height: 286px;
+    max-width: 17.87rem;
+    max-height: 17.87rem;
     position: absolute;
-    top: -110px;
-    right: -100px;
-    filter: drop-shadow(1px 1px 20px rgb(36, 36, 34));
+    top: -6.25rem;
+    right: -6.25rem;
+    filter: drop-shadow(0rem 0rem 16.25rem rgb(36, 36, 34));
 }
 .flower-plant-title{
     font-size: 3.05rem;
@@ -203,7 +203,7 @@ form {
 .footer-nav ul{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 32px;
+    gap: 2rem;
 }
 footer{
     margin: 3.1rem auto;
@@ -245,4 +245,18 @@ footer{
     .flower-plant-description{
         margin-left: 0.5rem;
     }
-}
+    .input-email{
+    height: 3.1rem;
+    width: 20.25rem;
+    }
+    footer{
+        flex-direction: column;
+    }
+    .footer-nav ul{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 2rem;
+    }
+    .flower-plant-description{
+        display: none;
+    }
